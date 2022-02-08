@@ -1,0 +1,212 @@
+// ================================== //
+// Required Files
+// ================================== //
+@import "~vuetify/src/styles/styles.sass";
+@import "custom-variable";
+
+// ================================== //
+// Vuetify overrides
+// ================================== //
+@import "vuetify/overrides";
+
+// ================================== //
+// Template Common Components
+// ================================== //
+@import "template/header";
+@import "template/footer";
+@import "template/navigation";
+@import "template/animation";
+
+// ================================== //
+// Sections
+// ================================== //
+@import "template/section/banner";
+@import "template/section/coming";
+@import "template/section/ui";
+@import "template/section/section-header";
+@import "template/section/features";
+@import "template/section/portfolio";
+@import "template/section/pricing";
+@import "template/section/team";
+@import "template/section/testimonial";
+@import "template/section/blog";
+@import "template/section/c2a";
+@import "template/section/contact";
+
+// ================================== //
+// Icons
+// ================================== //
+@import "https://cdn.jsdelivr.net/npm/@mdi/font@latest/css/materialdesignicons.min.css";
+
+
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    // list-style-type: none;
+    color: black;
+  }
+
+.container-layout{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.container-index{
+    display: flex;
+    margin-top: 15px;
+}
+.container-contact{
+    margin-top: 25px;
+}
+.font{
+    font-size: 34px;
+    margin-left: 7px;
+}
+.bg-b{
+    background-color: #0164D3;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+@media only screen and (min-width: 600px) {
+    .container-layout{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
+.item{
+    margin-top: 15px;
+}
+.item-admin{
+    margin-top: 70px;
+}
+
+
+.img-msj{
+    width: 150px;
+    height: 150px;
+    margin: auto;
+}
+
+.scroll-top {
+    position: fixed;
+    bottom: 32px;
+    right: 32px;
+    // background-color: #000;
+    padding: 10px 16px;
+    border-radius: 32px;
+    &__ico {
+      font-weight: bold;
+      font-size: 45px;
+      color: #fff;
+    }
+  }
+  .fade-enter-active,
+  .fade-leave-active {
+    transition: opacity 0.5s;
+  }
+  .fade-enter,
+  .fade-leave-to {
+    opacity: 0;
+  }
+
+.text-center{
+    text-align: center;
+    color: white;
+}
+
+.BoxContent{
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.text1{
+    text-decoration: none;   
+    list-style: none;
+    font-weight: 400;
+}
+
+.text-contact {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.BoxContent {
+    list-style-type: square;
+}
+.logoo{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.pagin{
+    text-decoration: none;
+    list-style-type:none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 400;
+}
+.pagin > ul {
+    align-items: center;
+    text-align: center;
+    display: inline-flex;
+    list-style-type: none;
+    justify-content: center;
+    margin:0;
+    max-width: 100%;
+    width: 100%;
+    
+}
+
+.pagin > li {
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 7px;
+    font-size: 1rem;
+    height: 34px;
+    min-width: 34px;
+    padding: 0 5px;
+    text-decoration: none;
+    transition: .3s cubic-bezier(0,0,.2,1);
+    width: auto;
+    box-shadow: 0 3px 1px -2px;
+    text-align: center;
+    display: flex;
+    align-items: center; 
+    margin-right: 10px;   
+}
+.fontpagin{
+    border: none;
+    font-size: 24px;
+    margin:3px;
+}
+.text-activity{
+    margin-left: 25px;
+}
+.container-admin{
+    margin-top: 70px;
+}
+.container-admin-activity{
+    margin-top: 100px;
+}
+
+.container-image{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.mb-20{
+    margin-bottom: 55px;
+}
